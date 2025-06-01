@@ -703,3 +703,31 @@ blockquote {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Table styles */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: var(--mono-font);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--mono-grey);
+}
+
+.info-table th,
+.info-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--sidebar-divider);
+}
+
+.info-table th {
+    font-weight: 600;
+    color: #111827;
+}
+
+.info-table td:first-child {
+    font-weight: 500;
+    color: #1f2937;
+}
